@@ -1,16 +1,16 @@
-# 🤖 Code Review Agent
+# Code Review Agent
 
 An automated code review agent powered by Claude (Anthropic) that analyzes pull request diffs and generates structured, actionable inline review comments — reducing review bottlenecks for small engineering teams.
 
 ---
 
-## 🧩 Problem It Solves
+## Problem It Solves
 
 On small teams (5–20 devs), developers often wait hours for PR reviews on straightforward changes. This agent automates the first-pass review, catching bugs, security issues, and style violations instantly — so human reviewers can focus on architecture and intent.
 
 ---
 
-## ⚙️ Core Logic Flow
+## Core Logic Flow
 
 ```
 GitHub Webhook (PR opened/updated)
@@ -36,17 +36,17 @@ GitHub Webhook (PR opened/updated)
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Multi-step agentic reasoning with Claude API
-- ✅ Closed-loop verification to reduce false positives
-- ✅ GitHub webhook integration
-- ✅ Supports Python, JavaScript, TypeScript
-- ✅ Structured JSON output for inline PR comments
+- Multi-step agentic reasoning with Claude API
+- Closed-loop verification to reduce false positives
+- GitHub webhook integration
+- Supports Python, JavaScript, TypeScript
+- Structured JSON output for inline PR comments
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **LLM**: Claude claude-sonnet-4-20250514 (Anthropic)
 - **Language**: Python 3.11+
@@ -55,7 +55,7 @@ GitHub Webhook (PR opened/updated)
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/code-review-agent
@@ -79,7 +79,7 @@ python src/agent.py --diff path/to/diff.patch
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 code-review-agent/
@@ -99,7 +99,7 @@ code-review-agent/
 
 ---
 
-## 📊 Estimated Usage
+## Estimated Usage
 
 | Metric | Value |
 |--------|-------|
@@ -109,6 +109,6 @@ code-review-agent/
 
 ---
 
-## 📄 License
+## License
 
 MIT
